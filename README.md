@@ -1,85 +1,42 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
-</p>
+# ISP stocks
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+  <p align="center">
+  <img src="https://res.cloudinary.com/ddc5jpwq7/image/upload/v1725397441/LogoISPStocks_g6xdlr.webp" alt="ISPStocks Logo" width="250"/>
+  </p>
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg" alt="Donate us"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow" alt="Follow us on Twitter"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+## Descripción
 
-## Description
+Breve descripción del proyecto, qué problemas resuelve, y cualquier otra información relevante que los usuarios necesiten saber.
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+## Tecnologías Utilizadas
 
-## Project setup
+## Tecnologias:
 
-```bash
-$ npm install
-```
+Las tecnologías que vamos a utilizar principalmente son:
 
-## Compile and run the project
+- NestJS para estructurar el código de manera modular, aprovechando su sistema de inyección de dependencias, controladores, servicios y middleware. Esto nos permite mantener un código limpio y escalable.
 
-```bash
-# development
-$ npm run start
+- TypeScript, que es el lenguaje base de NestJS, nos proporcionará tipado estático y herramientas avanzadas para mejorar la calidad del código y reducir errores en tiempo de desarrollo, asegurando un código más robusto.
 
-# watch mode
-$ npm run start:dev
+- TypeORM será clave para gestionar la conexión a la base de datos y definir las relaciones entre las entidades de forma eficiente. Con TypeORM, podremos interactuar con la base de datos utilizando clases de TypeScript en lugar de escribir consultas SQL directamente.
 
-# production mode
-$ npm run start:prod
-```
+- PostgreSQL como sistema de gestión de bases de datos, donde almacenaremos los datos estructurados de la aplicación, aprovechando su robustez para manejar grandes volúmenes de información y operaciones transaccionales.
 
-## Run tests
+- Passport y JWT nos ayudarán a manejar la autenticación, permitiendo el inicio de sesión seguro de los usuarios y protegiendo las rutas mediante el uso de tokens.
 
-```bash
-# unit tests
-$ npm run test
+- bcrypt será la herramienta que utilizaremos para cifrar las contraseñas de los usuarios, asegurando que las contraseñas almacenadas en la base de datos estén protegidas y no puedan ser descubiertas fácilmente en caso de una brecha de seguridad.
 
-# e2e tests
-$ npm run test:e2e
+Estas tecnologías juntas ofrecen una base sólida para construir una aplicación eficiente, segura y escalable.
 
-# test coverage
-$ npm run test:cov
-```
+## Características
 
-## Resources
+- Autenticación de usuarios
+- Gestión de bases de datos
+- API
+- Responsivo y adaptativo
 
-Check out a few resources that may come in handy when working with NestJS:
+### Negocio
 
-- Visit the [NestJS Documentation](https://docs.nestjs.com) to learn more about the framework.
-- For questions and support, please visit our [Discord channel](https://discord.gg/G7Qnnhy).
-- To dive deeper and get more hands-on experience, check out our official video [courses](https://courses.nestjs.com/).
-- Visualize your application graph and interact with the NestJS application in real-time using [NestJS Devtools](https://devtools.nestjs.com).
-- Need help with your project (part-time to full-time)? Check out our official [enterprise support](https://enterprise.nestjs.com).
-- To stay in the loop and get updates, follow us on [X](https://x.com/nestframework) and [LinkedIn](https://linkedin.com/company/nestjs).
-- Looking for a job, or have a job to offer? Check out our official [Jobs board](https://jobs.nestjs.com).
+El negocio es orientado a las empresas de internet de todo sector, desde carriers proveedores de ancho de banda local e internacional, hasta los proveedores masivos de internet o ISP (internet Service Provider).
 
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://twitter.com/kammysliwiec)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+- Este projecto es para combinar el mercado de los proveedores de internet con los bienes y servicios que se demanden.
