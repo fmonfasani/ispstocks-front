@@ -1,0 +1,64 @@
+/* src/App.css */
+
+body {
+  background-color: #e0db88fb; /* Fondo oscuro */
+}
+
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ocupa toda la altura de la ventana */
+}
+
+.form-container {
+  background-color: #f0f0f0; /* Fondo gris claro para el recuadro */
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(14, 121, 0, 0.2);
+  max-width: 600px; /* Ancho máximo para centrar el contenido */
+  width: 100%;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Dos tarjetas por fila */
+  gap: 20px; /* Espacio entre tarjetas */
+  justify-content: center;
+}
+
+.grid-item {
+  background-color: #c7e8b4; /* Fondo verde claro */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.grid-item:hover {
+  background-color: #b1d69e; /* Fondo más oscuro al pasar el mouse */
+}
+
+.card {
+  width: 200px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.form-control,
+.btn {
+  width: 100%;
+}
