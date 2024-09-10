@@ -1,15 +1,31 @@
+/* eslint-disable no-unused-vars */
+// Navbar.jsx
 import React from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <Link to="/">Home</Link>
-      <Link to="/products">Products</Link>
-      <Link to="/services">Services</Link>
-      <Link to="/cart">Cart</Link>
-      <Link to="/signin">Sign In</Link>
-      <Link to="/signup">Sign Up</Link>
+      <ul>
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="/products">Products</Link>
+        </li>
+        <li>
+          <Link to="/services">Services</Link>
+        </li>
+        <li>
+          <Link to="/cart">Cart</Link>
+        </li>
+        <li>
+          <Link to="/signin">Sign In</Link>
+        </li>
+        <li>
+          <Link to="/signup">Sign Up</Link>
+        </li>
+      </ul>
     </nav>
   );
 };
